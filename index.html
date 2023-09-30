@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>My Portifolio</title>
   </head>
   <body>
@@ -14,38 +20,118 @@
       </div>
       <nav>
         <ul>
-          <li><a href="">About</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="">Portifolio</a></li>
           <li><a href="">Contacts</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <article class="home">
+      <article id="home" class="home">
         <section class="social-link">
           <ul>
             <li>
-              <a href=""><img src="" alt="github" /></a>
+              <a href="https://github.com/LucasAraujo1997" target="_blank"
+                ><ion-icon name="logo-github"></ion-icon></a>
             </li>
             <li>
-              <a href=""><img src="" alt="instagram" /></a>
+              <a href="https://instagram.com" target="_blank"
+                ><ion-icon name="logo-instagram"></a>
             </li>
             <li>
-              <a href=""><img src="" alt="linkedin" /></a>
+              <a
+                href="https://www.linkedin.com/in/lucas-ara%C3%BAjo-b98597277"
+                target="_blank"
+                ><ion-icon name="logo-linkedin"></a>
             </li>
             <li>
-              <a href=""><img src="" alt="email" /></a>
+              <a href="https://araujocreeds@gmail.com" target="_blank"
+                ><ion-icon name="mail-outline"></ion-icon></a>
             </li>
           </ul>
+          <img src="./assets/img/undraw_programming_re_kg9v.svg" alt="">
         </section>
         <section class="home-intro">
-            <h1>Hi there. <br>
-                i&apos;m Lucas da Silva Araújo and i am <br>
-                <span>Front-end Developer</span>
-            </h1>
+          <h1>
+            Hi there. <br />
+            i&apos;m Lucas da Silva Araújo and i am <br />
+            <span>Front-end Developer</span>
+          </h1>
         </section>
-        <button class="home-return">seta pra cima</button>
+        <button class="home-return"><ion-icon name="chevron-up-outline"></ion-icon></button>
+      </article>
+
+      <article id="about" class="about">
+        <section class="my-abilits">
+            <h2>I Am a Front-end Developer</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eveniet fuga? Dolores fugiat placeat voluptate labore facilis nesciunt vel asperiores error reprehenderit. Error asperiores ipsam possimus laborum odio vel in.
+            </p>
+            <div class="abilit-percentage">
+                <div class="skills">
+                    <p>90%</p>
+                    <div class="bar">
+                        <div class="internal-bar-html"></div>
+                    </div>
+                    <span>HTML</span>
+                </div>
+                <div class="skills">
+                    <p>70%</p>
+                    <div class="bar">
+                        <div class="internal-bar-css"></div>
+                    </div>
+                    <span>CSS</span>
+                </div>
+                <div class="skills">
+                    <p>70%</p>
+                    <div class="bar">
+                        <div class="internal-bar-js"></div>
+                    </div>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skills">
+                    <p>40%</p>
+                    <div class="bar">
+                        <div class="internal-bar-nodeJs"></div>
+                    </div>
+                    <span>Node.js</span>
+                </div>
+                <div class="skills">
+                    <p>60%</p>
+                    <div class="bar">
+                        <div class="internal-bar-Sql"></div>
+                    </div>
+                    <span>Sql</span>
+                </div>
+            </div>
+            
+        </section>
+        <section class="img-about">
+            <img src="./assets/img/undraw_static_assets_rpm6.svg" alt="">
+        </section>
+      </article>
+
+      <article class="portfolio">
+        <section class="myRepository">
+            <div class="header-repository">
+                <h2>My github reppsitory</h2>
+            </div>
+
+            <div class="repository-container">
+                
+            </div>
+        </section>
       </article>
     </main>
+
+    <!-- Ionic icons  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
