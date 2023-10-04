@@ -7,7 +7,7 @@ Projeto voltado para demostração de projetos pessoais
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -34,9 +34,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Portifólio é um projeto com links de repositorios do github para visualização de recrutadores ou pessoas interessadas.
 
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](<https://www.figma.com/file/wy67Nq86ZWFb2nyG5nHN0B/DevLinks-%E2%80%A2-Projeto-Discover-(Community)?node-id=223%3A203&mode=dev/duplicate>). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
