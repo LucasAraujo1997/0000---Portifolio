@@ -107,13 +107,13 @@
     background-color: rgba(128, 128, 128, 0.447);
   }
   /* button return to home */
-  .home-return {
+  /* .home-return {
     visibility: hidden;
   }
   .home-return:hover {
     color: darkslategray;
     background-color: lightgray;
-  }
+  } */
 
   /* Home-Intro */
 

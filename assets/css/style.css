@@ -149,6 +149,7 @@ main {
 }
 /* button return to home */
 .home-return {
+  visibility: hidden;
   position: fixed;
   bottom: 15px;
   right: 15px;
@@ -262,9 +263,15 @@ main {
 }
 
 .portfolio {
+  
   max-width: 100%;
   min-height: 100vh;
+ 
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .myRepository {
   width: 100%;
@@ -275,6 +282,7 @@ main {
   flex-direction: column;
 }
 .repository-container ul {
+  
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -415,6 +423,7 @@ main {
   color: white;
 }
 footer{
+  margin-top: -6rem;
   display: flex;
   align-items: center;
   height: 5rem;
